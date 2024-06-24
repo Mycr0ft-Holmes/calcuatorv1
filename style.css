@@ -1,0 +1,51 @@
+body{
+    background-color: #343434;
+
+}
+
+
+.vis button{
+    margin: 1%;
+    padding: 2%;
+    height: auto;
+    width: 8%;
+    font-family: sans-serif;
+    font-size: 2vw;
+    font-weight: bolder;
+    transition: 1s;
+    border: solid black 3px;
+    box-shadow: 2px 2px 2px rgb(121, 121, 121);
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+
+
+
+.vis button:hover{
+    background-color: aqua;
+}
+
+
+.vis button:active{
+    transform: scale(0.90);
+}
+
+.vis{
+    display: inline;
+    text-align: center;
+    margin: auto;
+}
+
+.ioarea input{
+    padding-top: 5%;
+    padding-left: auto;
+    padding-right: auto;
+    align-items: center;
+    display: inline;
+    text-align: right;
+    border: solid black 3px;
+    box-shadow: 2px 2px 2px rgb(121, 121, 121);
+    border-radius: 13px;
+    font-size: 3vw;
+}
